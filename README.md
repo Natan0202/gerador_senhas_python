@@ -20,6 +20,7 @@ O mesmo esquema funciona com "def gerador_numero"
 Optei por usar "Append", por simplismente ele colocar em ordem aleatória diferente do "Extend" que acrescenta em sequência
   
 <h1> __str__ </h1>
+
         l = "".join(map(str,self.lista_num))
         n = "".join(map(str,self.lista_letras))
         
